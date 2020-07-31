@@ -45,13 +45,13 @@ body {
     margin-right: auto;
     display: block;
 }
-.button {
+.menu button {
     background: transparent;
     width: 250px;
     height: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     padding: 5px;
-    color: #000;
+    color: #fff;
     font-size: 15px;
     font-family: 'Teko', sans-serif;
     font-weight: 400;
@@ -61,7 +61,7 @@ body {
     border-radius: 5px;
     outline: none;
 }
-.button:hover {
+.menu button:hover {
     background: #ff9100;
     color: #fff;
     transition: 0.4s;
@@ -84,33 +84,7 @@ body {
     height: 560px;
     margin: 0px;
 }
-.menu {
-    background: transparent;
-    width: 340px;
-    height: 50px;
-    margin-top: 9px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    display: block;
-	border: 5px solid #ff9100;
-}
-.menu-list {
-    background: transparent;
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    margin-top: 0px;
-    padding: 10px;
-    color: #fff;
-    font-size: 15px;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 0px;
-    display: inline-block;
-}
+
 .active {
     background: #ff9100;
 	opacity: 80%;
