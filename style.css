@@ -45,8 +45,8 @@ body {
     margin-right: auto;
     display: block;
 }
-.home button {
-    background: #fff;
+.button {
+    background: transparent;
     width: 250px;
     height: auto;
     margin-top: 5%;
@@ -61,7 +61,7 @@ body {
     border-radius: 5px;
     outline: none;
 }
-.home button:hover {
+.button:hover {
     background: #ff9100;
     color: #fff;
     transition: 0.4s;
@@ -97,6 +97,7 @@ body {
 	border: 5px solid #ff9100;
 }
 .menu-list {
+    background: transparent;
     width: 100%;
     height: auto;
     margin: 0px;
